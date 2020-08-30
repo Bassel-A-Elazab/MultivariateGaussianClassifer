@@ -39,18 +39,26 @@
          How gets value of the above matrix?
             we divide it individually:
                First:
-               Variance: is a measure of the variability or spread in a set of data.
-               we calculate variance for variable one (x) and variable two (y) by using next equation.
+                  - Variance: is a measure of the variability or spread in a set of data.
+                  - we calculate variance for variable one (x) and variable two (y) by using next equation.
                Note:
-               X and Y are represents two features of sample data.
+                  - X and Y are represents two features of sample data.
               
 <img src="Pic/3.png" width="500">
    
                Second:
                Covariance:
-               Calculates Covariance between two variables (X,Y) by using next equation.
+                  - Calculates Covariance between two variables (X,Y) by using next equation.
                
 <img src="Pic/4.png" width="500">
-              
-<span style="text-decoration:overline">SIGNAL_ACTIVE_LOW</span>
+     
+   Where x-dash and y-dash are denoting the means of X and Y, respectively. 
+   
+
+      Step Three:
+         Probability Density Function (PDF):
+            - Is the same As I explained in one-dimension (Link above).
+            - Calculates it by using next equation,It seems complex but we divided it into small part, 
+               And finally gets the value.
+            
          
