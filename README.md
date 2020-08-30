@@ -45,8 +45,12 @@
                X and Y are represents two features of sample data.
               
 <img src="Pic/3.png" width="500">
-
-
+   
+               Second:
+               Covariance:
+               Calculates Covariance between two variables (X,Y) by using next equation.
+               
+<img src="Pic/4.png" width="500">
               
-
+<span style="text-decoration:overline">SIGNAL_ACTIVE_LOW</span>
          
