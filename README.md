@@ -13,7 +13,8 @@
 # What is the multi-variate gaussian?
         
       - Is a vector in multiple normally distributed variables.
-      - is a generalization of the one-dimensional (univariate) normal distribution to higher dimensions.
+      - is a generalization of the one-dimensional,
+           (univariate) normal distribution to higher dimensions.
   
 # How Multivariate Gaussian Classifer Works ?
     
@@ -30,8 +31,10 @@
 
       - Step Two: 
          Covariance Matrix: It's the hardest, and important part in algorithm.
-            - Is a square matrix giving the covariance between each pair of elements of a given random vector.
-            - In the matrix diagonal there are variances, i.e., the covariance of each element with itself. 
+            - Is a square matrix giving the covariance between,
+                  each pair of elements of a given random vector.
+            - In the matrix diagonal there are variances, i.e., 
+               the covariance of each element with itself. 
             - Is a measure of how much two random variables vary together.
             - Is symmetric.
             
@@ -41,7 +44,8 @@
             we divide it individually:
                First:
                   - Variance: is a measure of the variability or spread in a set of data.
-                  - we calculate variance for variable one (x) and variable two (y) by using next equation.
+                  - we calculate variance for variable one (x) and variable two (y),
+                     by using next equation.
                Note:
                   - X and Y are represents two features of sample data.
               
@@ -67,10 +71,12 @@
       Let's expain each paramter of the previous equation.
 
             K: Is the dimenion of the space (length of variables).
-            det: The determinant is a scalar value that can be computed from the elements of a square matrix,
+            det: The determinant is a scalar value,
+                  that can be computed from the elements of a square matrix,
                   And encodes certain properties of the linear transformation described by the matrix. 
             Simply to get determinant of matrix using the next equation,
-            But this for two variable of (2*2) dimensions, for large matrix, I provided useful references for this.
+            But this for two variable of (2*2) dimensions, for large matrix,
+                  I provided useful references for this.
             
  <img src="Pic/det.png" width="500">              
  
@@ -83,7 +89,8 @@
             
   <img src="Pic/trans.png" width="500">
   
-            Finallay after multiplication all of these parameteres by applying the above operations we get one value,
+            Finallay after multiplication all of these parameteres,
+                  by applying the above operations we get one value,
                Then calcaulates the exponential function of value multiplication by reamining part, 
                Which it's a normalizing constant.
                
