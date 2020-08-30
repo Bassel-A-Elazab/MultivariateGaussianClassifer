@@ -34,6 +34,7 @@
             - In the matrix diagonal there are variances, i.e., the covariance of each element with itself. 
             - Is a measure of how much two random variables vary together.
             - Is symmetric.
+            
 <img src="Pic/2.png" width="500">
 
          How gets value of the above matrix?
@@ -60,5 +61,29 @@
             - Is the same As I explained in one-dimension (Link above).
             - Calculates it by using next equation,It seems complex but we divided it into small part, 
                And finally gets the value.
+               
+ <img src="Pic/5.png" width="500">        
+ 
+      Let's expain each paramter of the previous equation.
+
+            K: Is the dimenion of the space (length of variables).
+            det: The determinant is a scalar value that can be computed from the elements of a square matrix,
+                  And encodes certain properties of the linear transformation described by the matrix. 
+            Simply to get determinant of matrix using the next equation,
+            But this for two variable of (2*2) dimensions, for large matrix, I provided useful references for this.
             
-         
+ <img src="Pic/6.png" width="500">              
+ 
+            inv: The inverse of the matrix, we calculate inverse of covariance matrix.
+                  The next figure shows how to calculate the inverse matrix of (2*2) dimension.
+           
+ <img src="Pic/7.png" width="500">
+ 
+            (x-mu)^T: transpose matrix illustrate it next figure.
+            
+  <img src="Pic/8.png" width="500">
+  
+            Finallay after multiplication all of these parameteres by applying the above operations we get one value,
+            Then calcaulates the exponential function of value multiplication by reamining part, Which it's a normalizing constant.
+            
+  
