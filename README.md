@@ -84,6 +84,13 @@
   <img src="Pic/8.png" width="500">
   
             Finallay after multiplication all of these parameteres by applying the above operations we get one value,
-            Then calcaulates the exponential function of value multiplication by reamining part, Which it's a normalizing constant.
+               Then calcaulates the exponential function of value multiplication by reamining part, 
+               Which it's a normalizing constant.
+               
+
+      Step Four:
+         Predict:
+            classify new point to the class labels with the highest probability density function (pdf).
+           
             
   
