@@ -100,4 +100,10 @@
             classify new point to the class labels with the highest probability density function (pdf).
            
             
-  
+  # References
+  [1] https://en.wikipedia.org/wiki/Multivariate_normal_distribution </br>
+  [2] https://datascienceplus.com/understanding-the-covariance-matrix/ </br>
+  [3] https://www.itl.nist.gov/div898/handbook/pmc/section5/pmc541.htm </br>
+  [4] https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html </br>
+  [5] https://ncalculators.com/statistics/covariance-calculator.htm </br>
+  [6] https://www.mathsisfun.com/ </br>
