@@ -11,6 +11,18 @@
    
 # What is the multi-variate gaussian?
         
-        - Is a vector in multiple normally distributed variables.
-        - is a generalization of the one-dimensional (univariate) normal distribution to higher dimensions.
-        
+      - Is a vector in multiple normally distributed variables.
+      - is a generalization of the one-dimensional (univariate) normal distribution to higher dimensions.
+  
+# How Multivariate Gaussian Classifer Works ?
+    
+   The concepts as discussed in one-dimensions (above link) with many different in equations.
+   gaussian paramters are( mean, variance, and covariance matrix)
+   
+      - Step One:
+         mean: 
+         Calculates the mean for each variables,
+         Then we have the mean vector consists of the means of each variable.
+         mean = mean of [x1, x2, ..... , xn]
+         
+      - Step Two: 
