@@ -3,7 +3,8 @@
 # Overview 
    - I illustrated, and created Gaussian Distribution in one domension, And I explained how it worked,
       And more details in this link (https://github.com/Bassel-A-Elazab/GaussianClassiferFromScratchOneDimension)
-   - I complete a gaussian but using multi-vairate/multi-dimension features, And looks at different between it and univariate gaussian.
+   - I complete a gaussian but using multi-vairate/multi-dimension features, 
+      And looks at different between it and univariate gaussian.
    - I used a gaussian in two dimensions to look how it works, And looks at different calculations from the one-dimension.
    - We can extend it for using more two dimenions, we created the basics and concepts.
    - Finally gaussian in two dimensions is called (bivariate-normal distribution).
@@ -24,5 +25,16 @@
          Calculates the mean for each variables,
          Then we have the mean vector consists of the means of each variable.
          mean = mean of [x1, x2, ..... , xn]
-         
+ 
+<img src="Pic/1.png" width="500">
+
       - Step Two: 
+         Covariance Matrix: It's the hardest, and important part in algorithm.
+            - Is a square matrix giving the covariance between each pair of elements of a given random vector.
+            - In the matrix diagonal there are variances, i.e., the covariance of each element with itself. 
+            
+<img src="Pic/2.png" width="500">
+
+
+
+         
