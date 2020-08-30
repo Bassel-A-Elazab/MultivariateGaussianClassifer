@@ -26,7 +26,7 @@
          Then we have the mean vector consists of the means of each variable.
          mean = mean of [x1, x2, ..... , xn]
  
-<img src="Pic/1.png" width="500">
+<img src="Pic/mu.png" width="500">
 
       - Step Two: 
          Covariance Matrix: It's the hardest, and important part in algorithm.
@@ -35,7 +35,7 @@
             - Is a measure of how much two random variables vary together.
             - Is symmetric.
             
-<img src="Pic/2.png" width="500">
+<img src="Pic/cov_mat.png" width="500">
 
          How gets value of the above matrix?
             we divide it individually:
@@ -45,13 +45,13 @@
                Note:
                   - X and Y are represents two features of sample data.
               
-<img src="Pic/3.png" width="500">
+<img src="Pic/var.png" width="500">
    
                Second:
                Covariance:
                   - Calculates Covariance between two variables (X,Y) by using next equation.
                
-<img src="Pic/4.png" width="500">
+<img src="Pic/cov.png" width="500">
      
    Where x-dash and y-dash are denoting the means of X and Y, respectively. 
    
@@ -62,7 +62,7 @@
             - Calculates it by using next equation,It seems complex but we divided it into small part, 
                And finally gets the value.
                
- <img src="Pic/5.png" width="500">        
+ <img src="Pic/pdf.png" width="500">        
  
       Let's expain each paramter of the previous equation.
 
@@ -72,16 +72,16 @@
             Simply to get determinant of matrix using the next equation,
             But this for two variable of (2*2) dimensions, for large matrix, I provided useful references for this.
             
- <img src="Pic/6.png" width="500">              
+ <img src="Pic/det.png" width="500">              
  
             inv: The inverse of the matrix, we calculate inverse of covariance matrix.
                   The next figure shows how to calculate the inverse matrix of (2*2) dimension.
            
- <img src="Pic/7.png" width="500">
+ <img src="Pic/inv.png" width="500">
  
             (x-mu)^T: transpose matrix illustrate it next figure.
             
-  <img src="Pic/8.png" width="500">
+  <img src="Pic/trans.png" width="500">
   
             Finallay after multiplication all of these parameteres by applying the above operations we get one value,
                Then calcaulates the exponential function of value multiplication by reamining part, 
